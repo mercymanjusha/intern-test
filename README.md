@@ -97,7 +97,202 @@
     
         
     </section>
-   
+   /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #111;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header .coone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+header a:hover {
+  background: #333;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background:black;
+  color: #fff;
+  padding: 5rem 1rem;
+  text-align: center;
+}.profile-card {
+  width: 300px; /* Adjust width */
+  height: 120px; /* Adjust height */
+  background-color: #1d1d2b; /* Same as card background */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.profile-card img {
+  width: 60px; /* Size for the profile image */
+  height: 60px;
+  border-radius: 50%;
+}
+
+.profile-card .info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.profile-card .info h4 {
+  font-size: 16px; /* Adjust font size */
+  margin: 0;
+}
+
+.profile-card .info p {
+  font-size: 14px; /* Adjust secondary text size */
+  margin: 0;
+  color: #bbb;
+}
+
+
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero span {
+  color: #007bff;
+}
+
+.hero p {
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  background: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero .metrics {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.hero .metric h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* About Section */
+.about {
+  background: whitesmoke;
+  padding: 2rem 1rem;
+}
+
+.about .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.about .card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.about .card img {
+  max-width: 100px;
+  margin-bottom: 1rem;
+}
+
+.about .card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.about .card p {
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+.img{
+  position: absolute;
+  top:200px;
+  right:100px;
+  transform:rotate(-70deg)
+  skewX(-20deg);
+}
+h2{
+  text-align: center;
+  color:black;
+}
+h2 span{
+  color:skyblue;
+
+}
+p{
+  color:black;
+  align-content: center;
+}
+
          
       
   
